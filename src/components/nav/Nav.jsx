@@ -9,9 +9,9 @@ import {RiMessage2Fill} from 'react-icons/ri'
 const Nav = () => {
   return (
     <nav>
-      <a href="#home"><TiHomeOutline/></a>
+      <a href="#home" className="active"><TiHomeOutline/></a>
       <a href="#about"><BiUser/></a>
-      <a href="#experiences"><GiBookCover/></a>
+      <a href="#experience"><GiBookCover/></a>
       <a href="#services"><RiServiceLine/></a>
       <a href="#contact"><RiMessage2Fill/></a>
     </nav>
