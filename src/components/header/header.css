@@ -54,6 +54,10 @@ header {
 
 }
 
+.me img {
+  width: 100%;
+}
+
 /* ======================= SCROLL DOWN ==================== */
 
 .scroll__down {
