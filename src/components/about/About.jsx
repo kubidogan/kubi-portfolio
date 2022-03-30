@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ABOUTME from '../../assets/aboutme.jpg'
+import HEADSHOT from '../../assets/headshot.jpg'
 import {FaAward} from 'react-icons/fa'
 import {ImUsers} from 'react-icons/im'
 import {RiFolderOpenFill} from 'react-icons/ri'
@@ -14,7 +14,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ABOUTME} alt="aboutimage"/>
+            <img src={HEADSHOT} alt="aboutimage"/>
           </div>
         </div>
 
